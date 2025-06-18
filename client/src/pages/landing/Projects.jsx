@@ -1,9 +1,13 @@
+import img1 from "../../assets/projects/1.jpg";
+import img2 from "../../assets/projects/2.jpg";
+import img3 from "../../assets/projects/3.jpg";
+import img4 from "../../assets/projects/4.jpg";
+
 const projects = [
   {
     title: "Cloud Storage App",
     brand: "CloudPixel",
-    image:
-      "https://images.unsplash.com/photo-1552374196-1ab2a1c593e8?auto=format&q=75&fit=crop&crop=top&w=600&h=700",
+    image: img1,
     price: "$0",
     oldPrice: "$49.99",
     discount: "-100%",
@@ -13,8 +17,7 @@ const projects = [
   {
     title: "Team Collaboration Tool",
     brand: "CloudPixel",
-    image:
-      "https://images.unsplash.com/photo-1523359346063-d879354c0ea5?auto=format&q=75&fit=crop&crop=top&w=600&h=700",
+    image: img2,
     price: "$0",
     oldPrice: null,
     discount: null,
@@ -24,8 +27,7 @@ const projects = [
   {
     title: "AI Image Enhancer",
     brand: "CloudPixel",
-    image:
-      "https://images.unsplash.com/photo-1548286978-f218023f8d18?auto=format&q=75&fit=crop&crop=top&w=600&h=700",
+    image: img3,
     price: "$0",
     oldPrice: null,
     discount: null,
@@ -35,8 +37,7 @@ const projects = [
   {
     title: "Analytics Dashboard",
     brand: "CloudPixel",
-    image:
-      "https://images.unsplash.com/photo-1566207274740-0f8cf6b7d5a5?auto=format&q=75&fit=crop&crop=top&w=600&h=700",
+    image: img4,
     price: "$0",
     oldPrice: null,
     discount: null,
