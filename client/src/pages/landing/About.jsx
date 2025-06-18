@@ -1,5 +1,4 @@
 import React from 'react';
-import { motion } from "motion/react"
 import pravilImg from '../../assets/pravil.JPG';
 import seynathImg from '../../assets/seynath.JPG';
 import thaminduImg from '../../assets/thamindu.JPG';
@@ -9,11 +8,7 @@ const About = () => {
     <div className="pt-24">
       <div className="bg-white py-6 sm:py-8 lg:py-12">
         <div className="mx-auto max-w-screen-xl px-2 md:px-6">
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.5 }}
-          >
+          <div>
             <h1 className="mb-4 text-center text-2xl font-bold text-gray-800 sm:text-3xl md:mb-6">
               Our Competitive Advantage
             </h1>
@@ -181,7 +176,7 @@ const About = () => {
                 </div>
               </div>
             </div>
-          </motion.div>
+          </div>
         </div>
       </div>
     </div>
